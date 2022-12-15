@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Redline</Text>
+    <Description>Some description for Redline</Description>
+    <Assembly>Redline.dll</Assembly>
+    <FullClassName>Redline.Command</FullClassName>
+    <ClientId>55b3c6e7-8e59-4829-97a1-340f25fcd49d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Redline</Name>
+    <Assembly>Redline.dll</Assembly>
+    <FullClassName>Redline.App</FullClassName>
+    <ClientId>9677794e-6fb9-4cc2-9993-bada3d5d7353</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
